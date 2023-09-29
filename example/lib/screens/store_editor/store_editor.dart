@@ -193,7 +193,7 @@ class _StoreEditorPopupState extends State<StoreEditorPopup> {
                                   AutovalidateMode.onUserInteraction,
                               keyboardType: TextInputType.number,
                               inputFormatters: [
-                                FilteringTextInputFormatter.digitsOnly
+                                FilteringTextInputFormatter.digitsOnly,
                               ],
                               initialValue: metadata.data!.isEmpty
                                   ? '14'
@@ -224,7 +224,7 @@ class _StoreEditorPopupState extends State<StoreEditorPopup> {
                                   AutovalidateMode.onUserInteraction,
                               keyboardType: TextInputType.number,
                               inputFormatters: [
-                                FilteringTextInputFormatter.digitsOnly
+                                FilteringTextInputFormatter.digitsOnly,
                               ],
                               initialValue: metadata.data!.isEmpty
                                   ? '20000'
@@ -252,7 +252,7 @@ class _StoreEditorPopupState extends State<StoreEditorPopup> {
                                     items: [
                                       'cacheFirst',
                                       'onlineFirst',
-                                      'cacheOnly'
+                                      'cacheOnly',
                                     ]
                                         .map<DropdownMenuItem<String>>(
                                           (v) => DropdownMenuItem(

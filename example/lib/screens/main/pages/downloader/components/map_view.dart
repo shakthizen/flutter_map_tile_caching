@@ -183,7 +183,7 @@ class _MapViewState extends State<MapView> {
                     else if (_center != null &&
                         _radius != null &&
                         downloadProvider.regionMode == RegionMode.circle)
-                      _buildTargetPolygon(CircleRegion(_center!, _radius!))
+                      _buildTargetPolygon(CircleRegion(_center!, _radius!)),
                   ],
                 ),
                 if (_crosshairsTop != null && _crosshairsBottom != null) ...[
@@ -197,7 +197,7 @@ class _MapViewState extends State<MapView> {
                     left: _crosshairsBottom!.x,
                     child: const Crosshairs(),
                   ),
-                ]
+                ],
               ],
             );
           },

@@ -79,7 +79,7 @@ class CircleRegion extends BaseRegion {
             labelStyle: labelStyle,
             labelPlacement: labelPlacement,
             points: toOutline(),
-          )
+          ),
         ],
       );
 

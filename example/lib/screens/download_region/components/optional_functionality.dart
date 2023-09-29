@@ -35,7 +35,7 @@ class OptionalFunctionality extends StatelessWidget {
                       value: provider.preventRedownload,
                       onChanged: (val) => provider.preventRedownload = val,
                       activeColor: Theme.of(context).colorScheme.primary,
-                    )
+                    ),
                   ],
                 ),
                 Row(
@@ -60,7 +60,7 @@ class OptionalFunctionality extends StatelessWidget {
                       value: provider.seaTileRemoval,
                       onChanged: (val) => provider.seaTileRemoval = val,
                       activeColor: Theme.of(context).colorScheme.primary,
-                    )
+                    ),
                   ],
                 ),
                 Row(
@@ -97,7 +97,7 @@ class OptionalFunctionality extends StatelessWidget {
                         provider.disableRecovery = val;
                       },
                       activeColor: Colors.amber,
-                    )
+                    ),
                   ],
                 ),
               ],

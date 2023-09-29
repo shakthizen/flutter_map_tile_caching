@@ -88,7 +88,7 @@ class RectangleRegion extends BaseRegion {
               ),
               bounds.northWest,
             ],
-          )
+          ),
         ],
       );
 
